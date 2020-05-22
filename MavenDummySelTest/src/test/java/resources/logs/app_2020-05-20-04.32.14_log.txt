@@ -1,0 +1,2 @@
+INFO    2020-05-20 16:32:14,234 [main] resources.Log  - EditCustomer Started
+INFO    2020-05-20 16:32:19,652 [main] resources.Log  - EditCustomer Test Case passed

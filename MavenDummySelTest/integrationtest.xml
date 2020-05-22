@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >	
+<suite name="IntegrationTest" >
+<listeners>
+     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+          
+          <listener class-name="listeners.ExtentListener"/>
+  </listeners>
+ <test name="IntegrationTest" >
+ <classes>
+ <class name="test.IntegrationEditCustTest" />
+ </classes>
+ </test>
+</suite>

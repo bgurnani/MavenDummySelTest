@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >	
+<suite name="FunctionalTest">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+          
+          <listener class-name="listeners.ExtentListener"/>
+  </listeners>
+  
+ <test name="NewCustomerTest" >
+ <classes>
+ <class name="test.NewCustomerTest" />
+ </classes>
+ </test>
+
+ 
+</suite>

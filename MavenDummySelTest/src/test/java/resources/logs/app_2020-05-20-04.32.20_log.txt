@@ -1,0 +1,2 @@
+INFO    2020-05-20 16:32:20,493 [main] resources.Log  - NewAccount Started
+INFO    2020-05-20 16:32:24,106 [main] resources.Log  - NewAccount Test Case passed

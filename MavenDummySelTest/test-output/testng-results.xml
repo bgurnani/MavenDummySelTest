@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[New Customer id:43059created ]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.18.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.18.png><img src=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.19.png height=200 width=200></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="FunctionalTest" duration-ms="15710" started-at="2020-05-14T12:26:04Z" finished-at="2020-05-14T12:26:19Z">
+    <groups>
+      <group name="functest">
+        <method signature="NewCustomerTest.NewCustomer()[pri:0, instance:test.NewCustomerTest@453da22c]" name="NewCustomer" class="test.NewCustomerTest"/>
+      </group> <!-- functest -->
+    </groups>
+    <test name="NewCustomerTest" duration-ms="15710" started-at="2020-05-14T12:26:04Z" finished-at="2020-05-14T12:26:19Z">
+      <class name="test.NewCustomerTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.NewCustomerTest@453da22c]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2020-05-14T12:26:04Z" finished-at="2020-05-14T12:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.NewCustomerTest@453da22c]" name="beforeTest" is-config="true" duration-ms="2282" started-at="2020-05-14T12:26:04Z" finished-at="2020-05-14T12:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.NewCustomerTest@453da22c]" name="beforeClass" is-config="true" duration-ms="7470" started-at="2020-05-14T12:26:06Z" finished-at="2020-05-14T12:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.NewCustomerTest@453da22c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-14T12:26:13Z" finished-at="2020-05-14T12:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NewCustomer()[pri:0, instance:test.NewCustomerTest@453da22c]" name="NewCustomer" duration-ms="3911" started-at="2020-05-14T12:26:13Z" finished-at="2020-05-14T12:26:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[New Customer id:43059created ]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.18.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.18.png><img src=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.19.png height=200 width=200></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NewCustomer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.NewCustomerTest@453da22c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-14T12:26:19Z" finished-at="2020-05-14T12:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.NewCustomerTest@453da22c]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-14T12:26:19Z" finished-at="2020-05-14T12:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.NewCustomerTest@453da22c]" name="afterTest" is-config="true" duration-ms="111" started-at="2020-05-14T12:26:19Z" finished-at="2020-05-14T12:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.NewCustomerTest@453da22c]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-05-14T12:26:19Z" finished-at="2020-05-14T12:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.NewCustomerTest -->
+    </test> <!-- NewCustomerTest -->
+  </suite> <!-- FunctionalTest -->
+</testng-results>

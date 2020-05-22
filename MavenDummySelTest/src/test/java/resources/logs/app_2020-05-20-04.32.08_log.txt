@@ -1,0 +1,2 @@
+INFO    2020-05-20 16:32:08,044 [main] resources.Log  - NewCustomer Started
+INFO    2020-05-20 16:32:13,412 [main] resources.Log  - NewCustomer Test Case passed
