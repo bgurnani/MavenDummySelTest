@@ -40,7 +40,7 @@ public static boolean AddNewAccount(String Sheet,int row) throws EncryptedDocume
 	
 }
 
-public static void setActId(String Sheet,int row) throws InvalidFormatException  {
+public static void setActId(String Sheet,int row) throws InvalidFormatException, EncryptedDocumentException, IOException  {
 	
 	
 	
@@ -48,12 +48,9 @@ public static void setActId(String Sheet,int row) throws InvalidFormatException 
 	
 	System.out.println(s2);
 	
-	try {
+	
 		WebdriverCommonLib.setexdata(Sheet,row,14,s2);
-	} catch (EncryptedDocumentException | IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
+	
 }
 
 public static String getNewAcctid() {

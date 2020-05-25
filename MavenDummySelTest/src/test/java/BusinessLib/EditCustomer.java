@@ -113,7 +113,7 @@ public static boolean EditCust(String Sheet,int row) throws EncryptedDocumentExc
 
 
 
-public static void setEditCustId(String Sheet,int row) throws InvalidFormatException  {
+public static void setEditCustId(String Sheet,int row) throws InvalidFormatException, EncryptedDocumentException, IOException  {
 	
 	
 	
@@ -123,12 +123,9 @@ public static void setEditCustId(String Sheet,int row) throws InvalidFormatExcep
 	
 	System.out.println(s2);
 	
-	try {
+	
 		WebdriverCommonLib.setexdata(Sheet,row,10,s2);
-	} catch (EncryptedDocumentException | IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
+	
 }
 
 public static String getUpdatedCustid() {
