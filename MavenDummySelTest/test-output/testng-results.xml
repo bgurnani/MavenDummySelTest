@@ -2,93 +2,57 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[New Customer id:43059created ]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
-    </line>
-    <line>
-      <![CDATA[Click to see Screenshot]]>
-    </line>
-    <line>
-      <![CDATA[<a target="_blank" href=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.18.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
-    </line>
-    <line>
-      <![CDATA[<a href=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.18.png><img src=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.19.png height=200 width=200></a>]]>
+      <![CDATA[New Customer id:30876created ]]>
     </line>
   </reporter-output>
-  <suite name="FunctionalTest" duration-ms="15710" started-at="2020-05-14T12:26:04Z" finished-at="2020-05-14T12:26:19Z">
+  <suite name="ComponentTest" duration-ms="12589" started-at="2020-05-26T15:11:27Z" finished-at="2020-05-26T15:11:39Z">
     <groups>
       <group name="functest">
-        <method signature="NewCustomerTest.NewCustomer()[pri:0, instance:test.NewCustomerTest@453da22c]" name="NewCustomer" class="test.NewCustomerTest"/>
+        <method signature="NewCustomerTest.NewCustomer()[pri:0, instance:test.NewCustomerTest@369f73a2]" name="NewCustomer" class="test.NewCustomerTest"/>
       </group> <!-- functest -->
     </groups>
-    <test name="NewCustomerTest" duration-ms="15710" started-at="2020-05-14T12:26:04Z" finished-at="2020-05-14T12:26:19Z">
+    <test name="NewCustomerTest" duration-ms="12589" started-at="2020-05-26T15:11:27Z" finished-at="2020-05-26T15:11:39Z">
       <class name="test.NewCustomerTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.NewCustomerTest@453da22c]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2020-05-14T12:26:04Z" finished-at="2020-05-14T12:26:04Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.NewCustomerTest@369f73a2]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2020-05-26T15:11:27Z" finished-at="2020-05-26T15:11:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.NewCustomerTest@453da22c]" name="beforeTest" is-config="true" duration-ms="2282" started-at="2020-05-14T12:26:04Z" finished-at="2020-05-14T12:26:06Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.NewCustomerTest@369f73a2]" name="beforeTest" is-config="true" duration-ms="2106" started-at="2020-05-26T15:11:27Z" finished-at="2020-05-26T15:11:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.NewCustomerTest@453da22c]" name="beforeClass" is-config="true" duration-ms="7470" started-at="2020-05-14T12:26:06Z" finished-at="2020-05-14T12:26:13Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.NewCustomerTest@369f73a2]" name="beforeClass" is-config="true" duration-ms="6762" started-at="2020-05-26T15:11:29Z" finished-at="2020-05-26T15:11:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.NewCustomerTest@453da22c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-14T12:26:13Z" finished-at="2020-05-14T12:26:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="NewCustomer()[pri:0, instance:test.NewCustomerTest@453da22c]" name="NewCustomer" duration-ms="3911" started-at="2020-05-14T12:26:13Z" finished-at="2020-05-14T12:26:17Z">
+        <test-method status="PASS" signature="NewCustomer()[pri:0, instance:test.NewCustomerTest@369f73a2]" name="NewCustomer" duration-ms="3604" started-at="2020-05-26T15:11:35Z" finished-at="2020-05-26T15:11:39Z">
           <reporter-output>
             <line>
-              <![CDATA[New Customer id:43059created ]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-            <line>
-              <![CDATA[Click to see Screenshot]]>
-            </line>
-            <line>
-              <![CDATA[<a target="_blank" href=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.18.png>Screenshot</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-            <line>
-              <![CDATA[<a href=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.18.png><img src=/Users/bharatgurnani/eclipse-workspace/MavenDummySelTest/Screenshots/snap2020-05-14-05.56.19.png height=200 width=200></a>]]>
+              <![CDATA[New Customer id:30876created ]]>
             </line>
           </reporter-output>
         </test-method> <!-- NewCustomer -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.NewCustomerTest@453da22c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-14T12:26:19Z" finished-at="2020-05-14T12:26:19Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.NewCustomerTest@369f73a2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-26T15:11:35Z" finished-at="2020-05-26T15:11:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.NewCustomerTest@453da22c]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-14T12:26:19Z" finished-at="2020-05-14T12:26:19Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.NewCustomerTest@369f73a2]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-26T15:11:39Z" finished-at="2020-05-26T15:11:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.NewCustomerTest@453da22c]" name="afterTest" is-config="true" duration-ms="111" started-at="2020-05-14T12:26:19Z" finished-at="2020-05-14T12:26:19Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.NewCustomerTest@369f73a2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-26T15:11:39Z" finished-at="2020-05-26T15:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.NewCustomerTest@369f73a2]" name="afterTest" is-config="true" duration-ms="95" started-at="2020-05-26T15:11:39Z" finished-at="2020-05-26T15:11:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.NewCustomerTest@453da22c]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-05-14T12:26:19Z" finished-at="2020-05-14T12:26:19Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.NewCustomerTest@369f73a2]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-05-26T15:11:40Z" finished-at="2020-05-26T15:11:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- test.NewCustomerTest -->
     </test> <!-- NewCustomerTest -->
-  </suite> <!-- FunctionalTest -->
+  </suite> <!-- ComponentTest -->
 </testng-results>

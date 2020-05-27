@@ -5,9 +5,9 @@
       <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 </listeners>
   
- <test name="NewCustomerTest" >
+ <test name="NewCustomerComponentTest.java" >
  <classes>
- <class name="test.NewCustomerTest" />
+ <class name="test.NewCustomerComponentTest"/>
  </classes>
  </test>
 
