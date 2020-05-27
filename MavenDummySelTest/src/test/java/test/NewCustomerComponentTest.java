@@ -24,6 +24,7 @@ import BusinessLib.NewCustomer;
 import GenericLib.Driver;
 import GenericLib.GenericConstant;
 import GenericLib.WebdriverCommonLib;
+import resources.Log;
 
 public class NewCustomerComponentTest {
 	
@@ -40,14 +41,19 @@ public class NewCustomerComponentTest {
 	     
 		  
 		  //AssertJUnit.assertEquals(Navigation.NavigateToNewCustomer(), true);
+	      Log.info(Navigation.NavigateToNewCustomer()?"Successfully navigated to customer page":"Customer page navigation failed");
 		  
-		  log.info(Navigation.NavigateToNewCustomer()?"Successfully navigated to customer page":"Customer page navigation failed");
+		 // log.info(Navigation.NavigateToNewCustomer()?"Successfully navigated to customer page":"Customer page navigation failed");
 		  
 		 // AssertJUnit.assertEquals(NewCustomer.AddNewCust("NewCust",1), true);
+	      
+	      Log.info(NewCustomer.AddNewCust("NewCust",1)? "Customer details entered successfully": "Entering customer details failed ");
 		  
-		  log.info(NewCustomer.AddNewCust("NewCust",1)? "Customer details entered successfully": "Entering customer details failed ");
+		  //log.info(NewCustomer.AddNewCust("NewCust",1)? "Customer details entered successfully": "Entering customer details failed ");
 		
-		  log.info("New Customer id:"+NewCustomer.getNewCustid() +"created ");
+		  Log.info("New Customer id:"+NewCustomer.getNewCustid() +"created ");
+	      
+	   //   log.info("New Customer id:"+NewCustomer.getNewCustid() +"created ");
 		
 		  Reporter.log("New Customer id:"+NewCustomer.getNewCustid() +"created ");
 		  
@@ -81,7 +87,7 @@ public class NewCustomerComponentTest {
 	  }
 
 	  
-	  @Test()
+	  /*@Test()
 	  public void NewCustomer2() throws EncryptedDocumentException, IOException, InvalidFormatException {
 		  
 		
@@ -123,7 +129,7 @@ public class NewCustomerComponentTest {
 			
 			//WebdriverCommonLib.CaptureScreenshot();	  
 	  }
-	  
+	  */
 
 	
 	@BeforeMethod
@@ -158,7 +164,7 @@ public class NewCustomerComponentTest {
 		  
 	  {
 		  Driver.openBrowser(WebdriverCommonLib.getBrowserName("Browser", 1, 0));
-		  WebdriverCommonLib.invokelogConfig();
+		 // WebdriverCommonLib.invokelogConfig();
 	  }
 	  else
 	  {
