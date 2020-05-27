@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [FunctionalTest]">
-  <listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-    <listener class-name="listeners.ExtentListener"/>
-  </listeners>
-  <test thread-count="5" name="NewCustomerTest(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.NewCustomerTest">
+      <class name="test.NewCustomerComponentTest">
         <methods>
+          <include name="afterClass"/>
+          <include name="NewCustomer1"/>
+          <include name="beforeSuite"/>
+          <include name="NewCustomer3"/>
           <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="NewCustomer2"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="afterClass"/>
-          <include name="NewCustomer"/>
-          <include name="afterTest"/>
-          <include name="beforeSuite"/>
-          <include name="beforeMethod"/>
           <include name="beforeClass"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- test.NewCustomerTest -->
+      </class> <!-- test.NewCustomerComponentTest -->
     </classes>
-  </test> <!-- NewCustomerTest(failed) -->
-</suite> <!-- Failed suite [FunctionalTest] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

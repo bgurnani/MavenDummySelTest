@@ -1,0 +1,4 @@
+INFO    2020-05-27 17:04:16,926 [main] resources.Log  - NewCustomer Test Case passed
+INFO    2020-05-27 17:04:26,553 [main] resources.Log  - EditCustomer Test Case passed
+INFO    2020-05-27 17:04:32,053 [main] resources.Log  - NewAccount Test Case passed
+INFO    2020-05-27 17:04:34,525 [main] resources.Log  - Deposit Test Case failed
