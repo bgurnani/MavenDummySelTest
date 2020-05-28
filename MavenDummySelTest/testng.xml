@@ -3,11 +3,12 @@
 <listeners>
       <listener class-name="org.uncommons.reportng.HTMLReporter"/>
       <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="listeners.ExtentListener"/>
 </listeners>
   
- <test name="NewCustomerComponentTest.java" >
+ <test name="NewCustomerTest.java" >
  <classes>
- <class name="test.NewCustomerComponentTest"/>
+ <class name="test.NewCustomerTest"/>
  </classes>
  </test>
 
