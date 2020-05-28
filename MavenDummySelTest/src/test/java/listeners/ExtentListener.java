@@ -29,6 +29,8 @@ public class ExtentListener implements ITestListener,ISuiteListener{
 	
 	
 	//private static ExtentReports extent;
+	
+	public String imgsrc;
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
 	
@@ -68,47 +70,37 @@ java.util.Date today = Calendar.getInstance().getTime();
 		
     System.setProperty("org.uncommons.reportng.escape-output", "false");
 		
-		/*try {
-			WebdriverCommonLib.CaptureScreenshot();
-		} catch (IOException e) {
+		
+        try {
+			imgsrc=WebdriverCommonLib.CaptureScreenshot();
+		} catch (IOException e2) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}*/
-		
-		//Reporter.log("Capturing screenshot");
-		
+			e2.printStackTrace();
+		}
+    
 		Reporter.log("<br>");
 		
-		//Reporter.log(result.getTestName());
+		
 		
 		Reporter.log(arg0.getTestName());
 		
-		//log.info(result.getTestName()+"  :Test Case passed");
 		
-		//log.info(result.getMethod().getMethodName()+ "Test Case passed");;
 		
 		Log.info(arg0.getMethod().getMethodName()+ " Test Case failed");
 		
-		//Reporter.log("<a href=\"/Users/bharatgurnani/eclipse-workspace/Dummy_Test/Screenshots/snaperror.png\"><img src=\"/Users/bharatgurnani/eclipse-workspace/Dummy_Test/Screenshots/snaperror.png\" height=200 width=200></a>");
 		
 	
 			Reporter.log("Click to see Screenshot");
-			try {
-				Reporter.log("<a target=\"_blank\" href="+WebdriverCommonLib.CaptureScreenshot()+">Screenshot</a>");
-			} catch (IOException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			}
+			
+			Reporter.log("<a target=\"_blank\" href="+imgsrc+">Screenshot</a>");
+			
 			Reporter.log("<br>");
 			Reporter.log("<br>");
 		
 		
-			try {
-				Reporter.log("<a target=\\\"_blank\\\" href="+WebdriverCommonLib.CaptureScreenshot()+"><img src="+WebdriverCommonLib.CaptureScreenshot()+" height=200 width=200></img></a>");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+		
+				Reporter.log("<a target=\\\"_blank\\\" href="+imgsrc+"><img src="+imgsrc+" height=200 width=200></img></a>");
+			
 			
 			
 			//Reporter.log("<a target=\"_blank\" href="+TestUtil.screenshotName+"><img src="+TestUtil.screenshotName+" height=200 width=200></img></a>");		
@@ -149,14 +141,14 @@ java.util.Date today = Calendar.getInstance().getTime();
 		
      System.setProperty("org.uncommons.reportng.escape-output", "false");
 		
-		/*try {
-			WebdriverCommonLib.CaptureScreenshot();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}*/
 		
-	
+		
+	try {
+		imgsrc=WebdriverCommonLib.CaptureScreenshot();
+	} catch (IOException e3) {
+		// TODO Auto-generated catch block
+		e3.printStackTrace();
+	}
 		
 		Reporter.log("<br>");
 		
@@ -166,12 +158,9 @@ java.util.Date today = Calendar.getInstance().getTime();
 		
 		//test.log(LogStatus.FAIL, arg0.getName().toUpperCase()+" Failed with exception : "+arg0.getThrowable());
 		test.log(LogStatus.PASS, arg0.getName().toUpperCase()+" PASS");
-		try {
-			test.log(LogStatus.PASS, test.addScreenCapture(WebdriverCommonLib.CaptureScreenshot()));
-		} catch (IOException e2) {
-			// TODO Auto-generated catch block
-			e2.printStackTrace();
-		}
+		
+			test.log(LogStatus.PASS, test.addScreenCapture(imgsrc));
+		
 		
 		
 		
@@ -181,12 +170,9 @@ java.util.Date today = Calendar.getInstance().getTime();
 		
 	
 		Reporter.log("Click to see Screenshot");
-		try {
-			Reporter.log("<a target=\"_blank\" href="+WebdriverCommonLib.CaptureScreenshot()+">Screenshot</a>");
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
+		
+			Reporter.log("<a target=\"_blank\" href="+imgsrc+">Screenshot</a>");
+		
 		Reporter.log("<br>");
 		Reporter.log("<br>");
 	
@@ -200,12 +186,9 @@ java.util.Date today = Calendar.getInstance().getTime();
 	
 		
 		
-			try {
-				Reporter.log("<a href="+WebdriverCommonLib.CaptureScreenshot()+"><img src="+WebdriverCommonLib.CaptureScreenshot()+" height=200 width=200></a>");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			
+				Reporter.log("<a href="+imgsrc+"><img src="+imgsrc+" height=200 width=200></a>");
+			
 			
 				
 	

@@ -23,7 +23,7 @@ public class CustomListeners implements ITestListener {
 	//public static org.apache.log4j.Logger log=Logger.getLogger(CustomListeners.class.getName());
 	
 	//public static Logger log=Logger.getLogger(CustomListeners.class.getName());
-	
+	public String imgsrc;
 	
 
 
@@ -42,7 +42,7 @@ public class CustomListeners implements ITestListener {
 	    System.setProperty("current.date", timestamp);
 		
 		PropertyConfigurator.configure("./src/test/java/resources/log4j.properties");
-		//WebdriverCommonLib.invokelogConfig();
+		
 		
 		Log.info(result.getMethod().getMethodName() + " Started");
 		
@@ -55,7 +55,7 @@ public class CustomListeners implements ITestListener {
        System.setProperty("org.uncommons.reportng.escape-output", "false");
 		
 		try {
-			WebdriverCommonLib.CaptureScreenshot();
+			imgsrc=WebdriverCommonLib.CaptureScreenshot();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -79,12 +79,9 @@ public class CustomListeners implements ITestListener {
 		
 		
 		
-			try {
-				Reporter.log("<a href="+WebdriverCommonLib.CaptureScreenshot()+"><img src="+WebdriverCommonLib.CaptureScreenshot()+" height=200 width=200></a>");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			
+				Reporter.log("<a href="+imgsrc+"><img src="+imgsrc+" height=200 width=200></a>");
+			
 			
 				
 	
@@ -119,12 +116,9 @@ public class CustomListeners implements ITestListener {
 		
 		
 		
-			try {
-				Reporter.log("<a href="+WebdriverCommonLib.CaptureScreenshot()+"><img src="+WebdriverCommonLib.CaptureScreenshot()+" height=200 width=200></a>");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			
+				Reporter.log("<a href="+imgsrc+"><img src="+imgsrc+" height=200 width=200></a>");
+			
 			
 			
 		

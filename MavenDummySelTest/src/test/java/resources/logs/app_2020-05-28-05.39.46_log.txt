@@ -1,0 +1,5 @@
+INFO    2020-05-28 17:39:46,092 [main] resources.Log  - NewCustomer Started
+INFO    2020-05-28 17:39:46,875 [main] resources.Log  - Successfully navigated to customer page
+INFO    2020-05-28 17:39:49,921 [main] resources.Log  - Customer details entered successfully
+INFO    2020-05-28 17:39:50,710 [main] resources.Log  - NewCustomer Test Case passed
+INFO    2020-05-28 17:39:50,818 [main] resources.Log  - NewCustomerTest.java: Test Case finished

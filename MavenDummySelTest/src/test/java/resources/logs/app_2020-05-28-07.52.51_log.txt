@@ -1,0 +1,3 @@
+INFO    2020-05-28 19:53:00,305 [main] resources.Log  - Successfully navigated to customer page
+INFO    2020-05-28 19:53:03,277 [main] resources.Log  - Customer details entered successfully
+INFO    2020-05-28 19:53:04,054 [main] resources.Log  - NewCustomer Test Case passed

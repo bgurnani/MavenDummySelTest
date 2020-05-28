@@ -28,7 +28,7 @@ import resources.Log;
 
 public class NewCustomerComponentTest {
 	
-	private static final Logger log = Logger.getLogger(NewCustomerComponentTest.class.getName());
+	//private static final Logger log = Logger.getLogger(NewCustomerComponentTest.class.getName());
 	
 	 @Test()
 	  public void NewCustomer1() throws EncryptedDocumentException, IOException, InvalidFormatException {

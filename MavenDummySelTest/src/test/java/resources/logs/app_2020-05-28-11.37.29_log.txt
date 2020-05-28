@@ -1,0 +1,6 @@
+INFO    2020-05-28 11:37:29,585 [main] resources.Log  - NewCustomer1 Started
+INFO    2020-05-28 11:37:31,102 [main] resources.Log  - Successfully navigated to customer page
+INFO    2020-05-28 11:37:34,138 [main] resources.Log  - Customer details entered successfully
+INFO    2020-05-28 11:37:34,155 [main] resources.Log  - New Customer id:31782created 
+INFO    2020-05-28 11:37:34,898 [main] resources.Log  - NewCustomer1 Test Case passed
+INFO    2020-05-28 11:37:35,956 [main] resources.Log  - NewCustomerTest: Test Case finished
