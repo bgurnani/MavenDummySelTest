@@ -18,6 +18,8 @@ public class Driver {
 	
 	public static WebDriver driver;
 	
+	public static String browsername;
+	
 	public static void openChromeBrowser() {
 		
 		System.setProperty("webdriver.chrome.driver",GenericConstant.chromepath);
@@ -34,9 +36,10 @@ public class Driver {
 		   // Browsername=GenericConstant.browserName;
 		    System.out.println(Browsername);
 		    
+		    String browsername=Browsername.toUpperCase();
 		   
 		    
-		    switch (Browsername.toUpperCase()) {
+		    switch (browsername) {
 		    
 		   
 			case "FIREFOX":
